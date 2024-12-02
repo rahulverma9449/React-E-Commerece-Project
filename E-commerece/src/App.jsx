@@ -1,17 +1,17 @@
 import React from 'react'
 import './App.css'
-import {Button} from 'react-bootstrap'
+
+import Header from './Components/Header.jsx';
 
 function App() {
   return (
   
       <div>
+        <Header />
         <h1>E-Commerece</h1>
-       <button>Click here</button>
-      <Button>click here</Button>
       </div>
   
   )
 }
 
-export default App
+export default App;
